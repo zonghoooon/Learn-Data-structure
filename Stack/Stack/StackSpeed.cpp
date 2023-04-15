@@ -39,6 +39,8 @@ int main()
     end = clock();
     cout << "deque_push: " << (double)(end - start) << "\n";
 
+    cout << endl;
+
     //vector pop 속도
     start = clock();
     for (int i = 0; i < TIME; i++) {
