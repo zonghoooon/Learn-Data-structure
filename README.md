@@ -7,3 +7,4 @@ C++에서 자료구조를 공부한 것을 올리는 공간입니다.
 4. 큐(Queue): https://blog.naver.com/zonghoooon/223075916109
 5. 우선순위 큐(Priority Queue): https://blog.naver.com/zonghoooon/223076592272
 6. 덱(Deque): https://blog.naver.com/zonghoooon/223077465958
+7. 리스트(List): https://blog.naver.com/zonghoooon/223078784114
