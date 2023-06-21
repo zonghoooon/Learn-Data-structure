@@ -2,7 +2,8 @@
 #include <vector>
 #include <time.h>
 using namespace std;
-
+//앞에서부터 하나씩 정렬
+// 정렬 안된부분에서 가장 작은 숫자를 선택해 맨 앞으로
 void Sort(vector<int> &list) {
 
     for (int i = 0; i < list.size() - 1; i++) {

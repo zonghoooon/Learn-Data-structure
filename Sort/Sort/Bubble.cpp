@@ -3,6 +3,8 @@
 #include <time.h>
 using namespace std;
 
+//뒤에서부터 하나씩 정렬
+//정렬 안된 배열에서 앞에서부터 2개씩 비교하며 정렬 안되어있으면 교환
 void Sort(vector<int>& list) {
     for (int i = list.size()-1; i >=0; i--) {
         for (int j = 0; j <i; j++) {

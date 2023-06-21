@@ -2,7 +2,9 @@
 #include <vector>
 #include <time.h>
 using namespace std;
-
+//배열을 2개로 비균등하게 나눠서 정렬
+// 피벗을 하나 정한다음 피벗보다 작은 숫자를 앞으로, 큰 숫자를 뒤로
+// 피벗을 기준으로 계속 나눔
 int partition(vector<int>& list, int left, int right) {
     int pivot = list[left];
     int low=left, high = right+1;

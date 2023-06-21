@@ -2,7 +2,8 @@
 #include <vector>
 #include <time.h>
 using namespace std;
-
+//앞에서부터 하나씩 정렬
+//정렬 안된 부분에서 가장 앞에있는 숫자를 정렬된 배열의 적절한 위치로 삽입
 void Sort(vector<int>& list) {
     for (int i = 1; i < list.size(); i++) {
         for (int j = i - 1; j >=0; j--) {
