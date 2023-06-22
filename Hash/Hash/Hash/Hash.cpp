@@ -27,10 +27,6 @@ void Add(int key, int value) {
 		hash_table[index] = newNode;
 	}
 	else {
-		Node* cur = hash_table[index];
-		while (cur != NULL) {
-			cur = cur->next;
-		}
 		newNode->next = hash_table[index];
 		hash_table[index] = newNode;
 	}
